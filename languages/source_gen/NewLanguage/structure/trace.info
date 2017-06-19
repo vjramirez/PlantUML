@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,34,0" name="NewLanguage.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,34,0" name="NewLanguage.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="14,0,90,0" name="NewLanguage.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:48769f88-97b2-4502-90e0-0bc155b3f4cd(NewLanguage.structure)/1413520976064108805">
+    <file name="datatypes_PropertySupport.java">
+      <node id="1413520976064108805" at="8,44,9,28" concept="4" />
+      <node id="1413520976064108805" at="10,24,11,21" concept="1" />
+      <node id="1413520976064108805" at="12,12,13,24" concept="1" />
+      <node id="1413520976064108805" at="14,5,15,56" concept="5" />
+      <node id="1413520976064108805" at="12,10,14,5" concept="0" />
+      <node id="1413520976064108805" at="9,28,14,5" concept="2" />
+      <node id="1413520976064108805" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <scope id="1413520976064108805" at="10,24,11,21" />
+      <scope id="1413520976064108805" at="12,12,13,24" />
+      <scope id="1413520976064108805" at="8,44,15,56">
+        <var name="testValue" id="1413520976064108805" />
+      </scope>
+      <scope id="1413520976064108805" at="8,0,17,0">
+        <var name="value" id="1413520976064108805" />
+      </scope>
+      <unit id="1413520976064108805" at="7,0,18,0" name="NewLanguage.structure.datatypes_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:48769f88-97b2-4502-90e0-0bc155b3f4cd(NewLanguage.structure)/1413520976064138438">
+    <file name="reftypes_PropertySupport.java">
+      <node id="1413520976064138438" at="8,44,9,28" concept="4" />
+      <node id="1413520976064138438" at="10,24,11,21" concept="1" />
+      <node id="1413520976064138438" at="12,12,13,24" concept="1" />
+      <node id="1413520976064138438" at="14,5,15,40" concept="5" />
+      <node id="1413520976064138438" at="12,10,14,5" concept="0" />
+      <node id="1413520976064138438" at="9,28,14,5" concept="2" />
+      <node id="1413520976064138438" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <scope id="1413520976064138438" at="10,24,11,21" />
+      <scope id="1413520976064138438" at="12,12,13,24" />
+      <scope id="1413520976064138438" at="8,44,15,40">
+        <var name="testValue" id="1413520976064138438" />
+      </scope>
+      <scope id="1413520976064138438" at="8,0,17,0">
+        <var name="value" id="1413520976064138438" />
+      </scope>
+      <unit id="1413520976064138438" at="7,0,18,0" name="NewLanguage.structure.reftypes_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:48769f88-97b2-4502-90e0-0bc155b3f4cd(NewLanguage.structure)/1413520976064138439">
+    <file name="cardinaltypes_PropertySupport.java">
+      <node id="1413520976064138439" at="8,44,9,28" concept="4" />
+      <node id="1413520976064138439" at="10,24,11,21" concept="1" />
+      <node id="1413520976064138439" at="12,12,13,24" concept="1" />
+      <node id="1413520976064138439" at="14,5,15,40" concept="5" />
+      <node id="1413520976064138439" at="12,10,14,5" concept="0" />
+      <node id="1413520976064138439" at="9,28,14,5" concept="2" />
+      <node id="1413520976064138439" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <scope id="1413520976064138439" at="10,24,11,21" />
+      <scope id="1413520976064138439" at="12,12,13,24" />
+      <scope id="1413520976064138439" at="8,44,15,40">
+        <var name="testValue" id="1413520976064138439" />
+      </scope>
+      <scope id="1413520976064138439" at="8,0,17,0">
+        <var name="value" id="1413520976064138439" />
+      </scope>
+      <unit id="1413520976064138439" at="7,0,18,0" name="NewLanguage.structure.cardinaltypes_PropertySupport" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,5 +1,5 @@
 # PlantUML
-Small example of creating PlantUML code from a Domain Specific Languaje using **Jetbrains MPS**.<br>
+Small example of creating PlantUML code from a Domain Specific Language using **Jetbrains MPS**.<br>
 The [plaintextgen language](https://plugins.jetbrains.com/plugin/8444-com-dslfoundry-plaintextgen) plugin is required.
 
 Thanks to:<br>

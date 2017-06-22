@@ -1,0 +1,21 @@
+@startuml
+class Account{
+
+
+}
+
+class Customer{
+
+
+}
+
+class Transaction{
+
+
+}
+
+class victor{
+
+}
+
+@enduml

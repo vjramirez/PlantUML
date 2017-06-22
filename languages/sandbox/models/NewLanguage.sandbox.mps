@@ -43,7 +43,7 @@
         <property role="2ZhycH" value="transactions" />
       </node>
       <node concept="2Zhyc$" id="1etPtqGRt__" role="2Zhybr">
-        <property role="2Zhyc_" value="String" />
+        <property role="2Zhyc_" value="Int" />
         <property role="2Zhycz" value="amount" />
       </node>
       <node concept="2Zhyc$" id="1etPtqGRt_C" role="2Zhybr">
@@ -77,13 +77,6 @@
       <node concept="2Zhyc$" id="1etPtqGRzRj" role="2Zhybr">
         <property role="2Zhyc_" value="Int" />
         <property role="2Zhycz" value="amount" />
-      </node>
-    </node>
-    <node concept="2ZhydG" id="4AGPXbTuKfz" role="2ZhydH">
-      <property role="2Zgc4_" value="victor" />
-      <node concept="2Zhyc$" id="4AGPXbTuKf$" role="2Zhybr">
-        <property role="2Zhyc_" value="String" />
-        <property role="2Zhycz" value="nombre" />
       </node>
     </node>
   </node>

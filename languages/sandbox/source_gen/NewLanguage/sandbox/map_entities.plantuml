@@ -1,21 +1,20 @@
 @startuml
-class Account{
-
-
+class Account {
+  String amount
+  String number
 }
+Account -- "1" Customer : holders
+Account *-- "0..*" Transaction : transactions
 
-class Customer{
-
-
+class Customer {
+  String name
+  String address
 }
+Customer -- "1" Account : accounts
 
-class Transaction{
-
-
-}
-
-class victor{
-
+class Transaction {
+  Date date
+  Int amount
 }
 
 @enduml

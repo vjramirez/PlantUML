@@ -16,14 +16,14 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_5308855361891653417(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6baL, 0x139dd5d6acdd14f3L, "name"));
   }
-  public static Object propertyMacro_GetPropertyValue_5308855361891748758(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6baL, "NewLanguage.structure.entity"), false, false), MetaAdapterFactory.getProperty(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6baL, 0x139dd5d6acdd14f3L, "name"));
-  }
   public static Object propertyMacro_GetPropertyValue_5308855361891680027(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6f2L, 0x139dd5d6acdbf6f3L, "type"));
   }
   public static Object propertyMacro_GetPropertyValue_5308855361891684143(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6f2L, 0x139dd5d6acdbf6f5L, "name"));
+  }
+  public static Object propertyMacro_GetPropertyValue_1529527679641360550(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6baL, "NewLanguage.structure.entity"), false, false), MetaAdapterFactory.getProperty(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6baL, 0x139dd5d6acdd14f3L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_5308855361891819046(final PropertyMacroContext _context) {
     String tipo = "--";
@@ -51,7 +51,7 @@ public class QueriesGenerated {
   public static Iterable<SNode> sourceNodesQuery_5308855361891697217(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6baL, 0x139dd5d6acdbf70dL, "listOfProperties"));
   }
-  public static Iterable<SNode> sourceNodesQuery_5308855361891711478(final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_1529527679641350366(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x4ad2e0f6d3fb4cf4L, 0xa3324d84e2a36372L, 0x139dd5d6acdbf6baL, 0x139dd5d6acdbf70fL, "listOfRelations"));
   }
 }
